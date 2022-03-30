@@ -18,6 +18,14 @@ data class DeviceBookingEntity(
     var lastBookedDateTime: ZonedDateTime? = null,
     @Column
     var bookedBy: String? = null,
+    @Column
+    var technology: String,
+    @Column
+    var bands2g: String,
+    @Column
+    var bands3g: String,
+    @Column
+    var bands4g: String,
     @Version
     var version: Int = 0
 )

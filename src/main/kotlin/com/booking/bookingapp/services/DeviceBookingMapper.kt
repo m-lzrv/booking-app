@@ -7,12 +7,15 @@ import org.springframework.stereotype.Component
 @Component
 class DeviceBookingMapper {
 
-    fun map(bookingEntity: DeviceBookingEntity) =
-        PhoneBookingResponse(
-            bookingEntity.modelName,
-            bookingEntity.bookedBy,
-            bookingEntity.isAvailable,
-            bookingEntity.lastBookedDateTime
-        )
+    fun map(bookingEntity: DeviceBookingEntity) = PhoneBookingResponse(
+        bookingEntity.modelName,
+        bookingEntity.bookedBy,
+        bookingEntity.isAvailable,
+        bookingEntity.lastBookedDateTime,
+        bookingEntity.technology,
+        bookingEntity.bands2g,
+        bookingEntity.bands3g,
+        bookingEntity.bands4g
+    )
 
 }

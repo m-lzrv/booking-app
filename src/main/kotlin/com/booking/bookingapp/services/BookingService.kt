@@ -1,7 +1,7 @@
 package com.booking.bookingapp.services
 
-import com.booking.bookingapp.dto.ExecutionResult
 import com.booking.bookingapp.db.entities.ModelName
+import com.booking.bookingapp.dto.ExecutionResult
 
 interface BookingService<BOOKING_DTO, RELEASE_DTO, BOOKING_RESULT> {
 
