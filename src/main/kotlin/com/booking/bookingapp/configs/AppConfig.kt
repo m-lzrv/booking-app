@@ -1,11 +1,9 @@
 package com.booking.bookingapp.configs
 
-import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.Configuration
 import org.springframework.transaction.annotation.EnableTransactionManagement
 
 
 @Configuration
-@EnableConfigurationProperties(AvailablePhonesProperties::class)
 @EnableTransactionManagement
 class AppConfig
