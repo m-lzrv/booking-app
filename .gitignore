@@ -1,4 +1,4 @@
- ##Created by http://gitignore.io
+##Created by http://gitignore.io
 
 ### Windows ###
 # Windows image file caches
@@ -7,10 +7,6 @@ ehthumbs.db
 
 # Folder config file
 Desktop.ini
-.idea
-.gradle/checksums
-gradle
-
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
